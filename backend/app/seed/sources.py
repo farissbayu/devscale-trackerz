@@ -1,0 +1,51 @@
+"""Official learning sources (YouTube recordings) for the 42 regular sessions.
+
+Titles are the normalized titles used in data.py; the source is the platform's video
+recording for that topic. Slide URLs from the platform are intentionally not seeded —
+the session has one source link, and the user can replace it from the UI.
+"""
+
+SOURCE_URLS: dict[str, str] = {
+    "Introduction and Learn about the Basic of LLM, AI, and AI Development Concepts": "https://www.youtube.com/watch?v=Z7WV4rSk3JE",
+    "Python - Variables, Data Types, Conditional, Looping, Functions, Arguments, and Outputs": "https://www.youtube.com/watch?v=94bRa-rvLzw",
+    "Basic AI Call and Basic Prompt Strategies": "https://www.youtube.com/watch?v=wQ88cu4jeUo",
+    "Prompt Strategies and Function/Tool Calling #1": "https://www.youtube.com/watch?v=IxvbVmpxfj8",
+    "Function/Tool Calling #2 and Web Dev (Backend - FastAPI)": "https://www.youtube.com/watch?v=4hbx1vJSTqY",
+    "FastAPI - Basic File Organizations, Settings, Routers and Database, ORM, and SQLModel": "https://www.youtube.com/watch?v=Gu5qzsApRBo",
+    "FastAPI - Alembic, SQLModel, and Redis (Dependency Injection and Celery)": "https://www.youtube.com/watch?v=NaF8Rb-ZA0s",
+    "AI Agent Fundamentals and OpenAI Agents SDK": "https://www.youtube.com/watch?v=wUsBuq3xlKA",
+    "Agent Sessions and Streaming": "https://www.youtube.com/watch?v=5GnMZOAaKtk",
+    "TypeScript & ReactJS": "https://www.youtube.com/watch?v=nUQXykihWe4",
+    "Supplementary - Basic Streaming FastAPI + ReactJS": "https://www.youtube.com/watch?v=xnIcTH0Xu04",
+    "Supplementary - OpenAI SDK Streaming": "https://www.youtube.com/watch?v=wGnjpXsJwlQ",
+    "Supplementary - OpenAI Agents SDK with EventFrame": "https://www.youtube.com/watch?v=iYV76ipidLU",
+    "OCR and Embeddings": "https://www.youtube.com/watch?v=mLbJBaAJTwQ",
+    "Supplementary - Setup Backend": "https://www.youtube.com/watch?v=OLTouMseaO8",
+    "Supplementary - Setup Router & Worker": "https://www.youtube.com/watch?v=mcACp61aj-Y",
+    "Supplementary - Setup Database Engine": "https://www.youtube.com/watch?v=hY4CvakJ3lk",
+    "Supplementary - Rag API & Task": "https://www.youtube.com/watch?v=T3LsN046aUA",
+    "Rag Chunking & Simple Evaluation": "https://www.youtube.com/watch?v=RnHSiAkIDAM",
+    "Subagents & Multiagent Pattern": "https://www.youtube.com/watch?v=caxJ3fAj2Y4",
+    "MCP Server - Producer and Consumer": "https://www.youtube.com/watch?v=kbNNDayZsNI",
+    "Supplementary - AI Agent Setup": "https://www.youtube.com/watch?v=eM1t-Y8TxM4",
+    "Supplementary - Agent Setup": "https://www.youtube.com/watch?v=MVmH37utDt4",
+    "Supplementary - Agent Endpoint": "https://www.youtube.com/watch?v=QGFWW1dntjY",
+    "Supplementary - UI Setup": "https://www.youtube.com/watch?v=WxZOY-Fse-Q",
+    "Supplementary - AI SDK Setup": "https://www.youtube.com/watch?v=atqKwJ5f1sg",
+    "Supplementary - UI Parts Setup": "https://www.youtube.com/watch?v=O1c0437vW9o",
+    "Supplementary - List Sessions": "https://www.youtube.com/watch?v=g_0Eua1c2Bs",
+    "Guardrails & Agent Permission": "https://www.youtube.com/watch?v=I5HO4tUhs0s",
+    "Tracing, Observe, and Langfuse": "https://www.youtube.com/watch?v=0p-IJP23o_g",
+    "Agno Glimpse, Introductory, My working pipeline today with Coding Agent": "https://www.youtube.com/watch?v=jbaM1RyZeRo",
+    "ReactJS for AI Agents": "https://www.youtube.com/watch?v=i8q4Aimz0Bg",
+    "Supplementary - Setup VPS & SSH": "https://www.youtube.com/watch?v=Q-TzYcpF5cM",
+    "Supplementary - Setup UV": "https://www.youtube.com/watch?v=q_w5tuyQc20",
+    "Supplementary - Setup Services": "https://www.youtube.com/watch?v=p5cBouaxy4",
+    "Supplementary - Nginx CertBot": "https://www.youtube.com/watch?v=uewLItMA0yU",
+    "Supplementary - Deploy Frontend": "https://www.youtube.com/watch?v=jp6g4ZaXgbE",
+    "Final Assignment Briefs": "https://www.youtube.com/watch?v=oBg8rP-jGOQ",
+    "Supplementary - Auth": "https://www.youtube.com/watch?v=x1xQH5RPX30",
+    "Supplementary - Hash Password": "https://www.youtube.com/watch?v=SHjRqY5r8WM",
+    "Supplementary - Auth Login": "https://www.youtube.com/watch?v=PMm2KTBoeTE",
+    "Supplementary - Authorization Concept": "https://www.youtube.com/watch?v=vMXooQ8LJFs",
+}
